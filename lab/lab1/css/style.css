@@ -31,4 +31,42 @@ p.main {
   position: absolute;
   background-color: #fff;
   z-index: 2000;
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 10px;
+  left: 45%;
+  top: 1%;
+}
+
+td {
+  min-width: 50px;
+  padding: 5px;
+}
+
+.mon-color {
+  background-color: #B5121E
+}
+
+.tue-color {
+  background-color: #4DB93C
+}
+
+.wed-color {
+  background-color: #E08248
+}
+
+.thu-color {
+  background-color: #0C7860
+}
+
+.fri-color {
+  background-color: #DA4651
+}
+
+.sat-color {
+  background-color: #A3DF9A
+}
+
+.sun-color {
+  background-color: #BA5212
 }
