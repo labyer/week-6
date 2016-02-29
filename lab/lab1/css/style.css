@@ -1,11 +1,17 @@
 body {
     padding: 0;
     overflow: hidden;
-    font-family: colfax, helvetica, arial, sans-serif;
+    font-family: 'garamond';
+  }
+
+h1 {
+  font-family: 'garamond';
+  padding-top: 7%;
 }
 
 p.main {
   font-size: 24px;
+  font-family: 'garamond';
 }
 
 .map {
@@ -41,6 +47,23 @@ p.main {
 td {
   min-width: 50px;
   padding: 5px;
+}
+
+.button {
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    max-width: 40px;
+    background-color: #101010;
+    border: none;
+    color: #F8F8F8;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    border-radius: 3px;
 }
 
 .mon-color {

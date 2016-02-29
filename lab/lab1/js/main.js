@@ -155,6 +155,12 @@ $(document).ready(function() {
       style: myStyle,
       filter: myFilter
     }).addTo(map);
+    //Task 7: return to original
+    $(document).ready(function(){
+      $('#button').on('click', function(){
+        location.reload();
+      });
+    });
   });
 });
 
